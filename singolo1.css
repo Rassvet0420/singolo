@@ -43,7 +43,6 @@ table {
 }
 
 
-
 @font-face {
     font-family: 'Lato-Black';
     src: url(./assets/fonts/Lato-Black.ttf);
@@ -88,12 +87,7 @@ header {
 
 
 h1 {
-    /* font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 18.03448pt;
-    color: rgba(255, 255, 255, 255);
-    text-align: justify; */
-    /* background: url('../Singolo/Images/SINGOLO_@1X.png') no-repeat; */
+    position: absolute;
     visibility: hidden;
 }
 
@@ -101,8 +95,9 @@ h1 {
 .logo {
     position: relative;
     left: 40px;
-    top: 34px;
+    top: 32px;
     max-width: 115px;
+    letter-spacing: 0.2px; 
 }
 
 
@@ -125,16 +120,11 @@ h1 {
 
 .nav-menu {
     position: relative;
-    /* margin-top: 45px;
-    margin-bottom: 35px;
-    margin-left: 609px;
-     */
-    left: 609px;
-    top: 18px;
-    max-width: 371px;   
+    left: 610px;
+    top: 16px;
+    max-width: 371px;
+    letter-spacing: 0.2px; 
 }
-
-
 
 
 .menu-dot{
@@ -232,11 +222,17 @@ main {
 .slider-left {
     width: 16px;
     height: 27px;
-    background: url('../Singolo/assets/Images/slider-left.png');
+    background: url('assets/Images/slider-left.png');
     position: relative;
     z-index: 3;
     top: 282px;
     left: 42px;
+}
+
+
+.link-1 {
+    width: 16px;
+    height: 27px;
 }
 
 
@@ -251,6 +247,12 @@ main {
 }
 
 
+.link-2 {
+    width: 16px;
+    height: 27px;
+}
+
+
 /* ##### IPHONE VERTICAL ##### */
 
 
@@ -258,6 +260,7 @@ main {
     position: absolute;
     top: 53px;
 }
+
 
 .iphone-shadow-1 {
     position: absolute;
@@ -358,6 +361,7 @@ main {
 
 /* ##### IPHONE HORIZONTAL ##### */
 
+
 .iphone-horizontal {
     position: absolute;
     width: 555px;
@@ -393,108 +397,138 @@ main {
 .h2-services {
     position: absolute;
     font-family: 'Lato-Black', sans-serif;
-    
-    font-size: 29px;
+    font-size: 30px;
+    letter-spacing: -0.2px;
     color: rgba(102, 109, 137, 255);
     text-align: justify;
-    top: 67px;
-    left: 40px;
+    top: 62px;
+    left: 41px;
 }
 
 
 .p-services {
     position: absolute;
-    font-family: 'Lato-Light', sans-serif; 
-    font-size: 16px;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.14px;
+    line-height: 31px;
     color: rgba(118, 126, 158, 255);
     text-align: justify;
-    top: 123px;
+    top: 112px;
     left: 41px;
 }
 
 
 .services-2 {
-    display: flex;
-    flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between
-} 
-
-
- .pen {
+    display: grid;
+    width: 938px;
+    height: 205px;
+    top: 818px;
+    left: 38px;
     position: absolute;
-    width: 59px;
-    height: 59px;
-    background: url('./assets/Images/Pen.png');
-    top: 822px;
-    left: 41px;
+    grid-template-areas:
+        "pn blb hrt"
+        "phn bbl str";
+    grid-template-rows: 83px 83px;
+    grid-template-columns: repeat(3, 299px);
+    justify-content: space-between;
+    align-content: space-between;
+    
 }
 
 
+.img-services { 
+    width: 62px;
+    height: 62px;
+    left: 1px;
+    top: 1px;
+    position: relative;
+    float: left;
+}
+ 
+
+ .pen {
+    grid-area: pn;   
+}
+
+
+ /* .img-pen {
+    width: 62px;
+    height: 61px;
+     background: url('assets/Images/Pen.png');
+     float: left;
+     z-index: 6;
+ } */
 
 
 
+ .bulb {
+    grid-area: blb;
+    background: url('/assets/Images/Bulb.png');
+}
 
 
+ .heart {
+    grid-area: hrt;
+    background: url('/assets/Images/Heart.png');
+}
 
 
+ .phone {
+    grid-area: phn;
+    background: url('/assets/Images/Phone.png');
+}
 
 
+ .bubble {
+    grid-area: bbl;
+    background: url('/assets/Images/Bubble.png');
+}
 
 
+ .star { 
+    grid-area: str;
+    background: url('/assets/Images/Star.png');
+}
 
 
+.p-title {
+    font-family: 'Lato-Black';
+    font-size: 18px;
+    color: rgba(102, 109, 137, 255);
+    text-align: justify;
+    position: relative;
+    left: 20px;
+}
+
+
+.p-main {
+    width: 220px;
+    height: 83px;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+    position: relative;
+    left: 21px;
+    top: 10px;
+    line-height: 21px;
+    float: left; 
+}
+
+
+.services-bottom {
+    width: 1020px;
+    height: 6px;
+    background: url('assets/Images/services-bottom.png');
+    position: absolute;
+    top: 276px;
+    left: -38px;
+
+}
 
 
 /* ########
    #FOOTER#
    ######## */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .services { 
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-}
-
-.h2-services {
-    font-family: 'Lato-Black';
-  font-size: 17.5px;
-  color: #666d89;
-  line-height: 0.9;
-  padding: 0 0 10px 1px;
-}
-
-.p-services {
-    font-family: 'Lato-Regular';
-  font-size: 12px;
-  color: #767e9e;
-  line-height: 1.8;
-  text-align: justify;
-} */

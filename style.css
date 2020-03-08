@@ -124,6 +124,7 @@ h1 {
     top: 16px;
     width: 371px;
     letter-spacing: 0.2px; 
+    word-spacing: 0.7px;
 }
 
 
@@ -426,6 +427,7 @@ main {
 
 .p-services {
     position: absolute;
+    width: 950px;
     font-family: 'Lato-Light', sans-serif;
     font-size: 18px;
     letter-spacing: 0.14px;
@@ -451,7 +453,7 @@ main {
     grid-template-columns: repeat(3, 299px);
     justify-content: space-between;
     align-content: space-between;
-    
+    line-height: 20px;  
 }
 
 
@@ -574,7 +576,7 @@ main {
 
 .p-h-second {
     position: relative;
-    top: 90px;
+    top: 88px;
     left: 41px;
     font-family: 'Lato-Light';
     font-size: 18px;
@@ -589,7 +591,7 @@ main {
     width: 320px;
     height: 24px;
     position: relative;
-    top: 105px;
+    top: 104px;
     left: 40px;
 }
 
@@ -676,7 +678,7 @@ li {
     width: 1000px;
     height: 670px;
     position: relative;
-    top: 1px;
+    top: 0px;
     left: 40px;
     grid-template-areas:
         "a b c d"
@@ -779,7 +781,7 @@ li {
     width: 1020px;
     height: 728px;
     position: relative;
-    top: 1047px;
+    top: 1045px;
     background: url('assets/images/footer-bg-s2.png');
 }
 
@@ -798,11 +800,11 @@ li {
     width: 939px;
     height: 47px;
     position: relative;
-    top: 85px;
-    left: 41px;
+    top: 83px;
+    left: 40px;
     font-family: 'Lato-Light';
     font-size: 18px;
-    line-height: 29px;
+    line-height: 28px;
     color: rgba(118, 126, 158, 255);
     text-align: justify;
 }
@@ -862,24 +864,24 @@ li {
 
 .adam-soc {
     position: relative;
-    top: -7px;
-    left: -7px;
+    top: -3px;
+    left: 0px;
     grid-area: gg;
 }
 
 
 .desmond-soc {
     position: relative;
-    top: -7px;
-    left: -7px;    
+    top: -3px;
+    left: 0px;    
     grid-area: hh;
 }
 
 
 .scolara-soc {
     position: relative;
-    top: -7px;
-    left: -7px;
+    top: -3px;
+    left: -1px;
     grid-area: ii;
 }
 
@@ -1157,7 +1159,7 @@ li {
     height: 6px;
     background: url('assets/images/footer-bottom.png');
     position: relative;
-    top: 181px;
+    top: 179px;
 }
 
 .adam-f:hover {
@@ -1218,7 +1220,7 @@ li {
     width: 1020px;
     margin: 0 auto;
     position: relative;
-    top: 1047px;
+    top: 1051px;
 }
 
 
@@ -1328,7 +1330,7 @@ li {
 
 .contact-info-h {
     position: relative;
-    top: 4px;
+    top: 3px;
     font-family: 'Lato-Black';
     font-size: 18px;
     color: rgba(240, 216, 217, 255);
@@ -1343,9 +1345,9 @@ li {
     color: rgba(240, 216, 217, 255);
     text-align: justify;
     position: relative;
-    top: 14px;
+    top: 13px;
     left: 0px;
-    line-height: 21.5px;
+    line-height: 21.9px;
     letter-spacing: -0.1px;
     word-spacing: 0.6px;
 }
@@ -1370,6 +1372,11 @@ li {
     line-height: 21px;
     letter-spacing: -0.13px;
     word-spacing: 0.6px;
+    cursor: pointer;
+}
+
+.contact-info-a-p:hover {
+    color: rgb(214, 86, 79, 255);
 }
 
 
@@ -1384,12 +1391,20 @@ li {
 }
 
 
+
+
+.contact-info-a-p-2:hover {
+    color: rgb(214, 86, 79, 255);
+}
+
+
 .form-line {
     width: 1020px;
     height: 6px;
     display: block;
     position: relative;
-    top: -22px;
+    top: -19px;
+    left: -23px;
     background: url('assets/Images/form-line-bg.png');
 }
 
@@ -1434,15 +1449,15 @@ li {
     width: 1020px;
     height: 76px;
     position: relative;
-    top: 3360px;
+    top: 3363px;
     background: url('assets/Images/form-footer-bg.png');
 }
 
 
 .copyright {
     position: relative;
-    top: 31px;
-    left: 42px;
+    top: 36px;
+    left: 20px;
     font-family: 'Lato-Regular';
     font-size: 12px;
     text-align: justify;

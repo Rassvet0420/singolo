@@ -558,7 +558,7 @@ main {
     top: 1046px;
     width: 1020px;
     height: 195px;
-    background: url('assets/images/header-bg.png');
+    background: url('assets/Images/header-bg.png');
 }
 
 
@@ -669,7 +669,7 @@ li {
     top: 1046px;
     width: 1020px;
     height: 675px;
-    background: url('assets/images/main-bg.png');
+    background: url('assets/Images/main-bg.png');
 }
 
 
@@ -693,43 +693,43 @@ li {
 
 .pic-1 {
     grid-area: a;
-    background: url('assets/images/1.png');
+    background: url('assets/Images/1.png');
 }
 
 
 .pic-2 {
     grid-area: b;
-    background: url('assets/images/2.png');
+    background: url('assets/Images/2.png');
 }
 
 
 .pic-3 {
     grid-area: c;
-    background: url('assets/images/3.png');    
+    background: url('assets/Images/3.png');    
 }
 
 
 .pic-4 {
     grid-area: d;
-    background: url('assets/images/4.png');   
+    background: url('assets/Images/4.png');   
 }
 
 
 .pic-5 {
     grid-area: e;
-    background: url('assets/images/5.png');    
+    background: url('assets/Images/5.png');    
 }
 
 
 .pic-6 {
     grid-area: f;
-    background: url('assets/images/6.png');
+    background: url('assets/Images/6.png');
 }
 
 
 .pic-7 {
     grid-area: g;
-    background: url('assets/images/7.png');
+    background: url('assets/Images/7.png');
 }
 
 
@@ -741,25 +741,25 @@ li {
 
 .pic-9 {
     grid-area: i;
-    background: url('assets/images/9.png');
+    background: url('assets/Images/9.png');
 }
 
 
 .pic-10 {
     grid-area: j;
-    background: url('assets/images/10.png');
+    background: url('assets/Images/10.png');
 }
 
 
 .pic-11 {
     grid-area: k;
-    background: url('assets/images/11.png');
+    background: url('assets/Images/11.png');
 }
 
 
 .pic-12 {
     grid-area: l;
-    background: url('assets/images/12.png');
+    background: url('assets/Images/12.png');
 }
 
 
@@ -769,7 +769,7 @@ li {
     position: relative;
     top: -1;
     left: 0px;
-    background-image: url('assets/images/main-footer.png');
+    background-image: url('assets/Images/main-footer.png');
 }
 
 
@@ -782,7 +782,7 @@ li {
     height: 728px;
     position: relative;
     top: 1045px;
-    background: url('assets/images/footer-bg-s2.png');
+    background: url('assets/Images/footer-bg-s2.png');
 }
 
 
@@ -830,20 +830,20 @@ li {
 
 .adam {
     grid-area: aa;
-    background: url('assets/images/adam.png');
+    background: url('assets/Images/adam.png');
 
 }
 
 
 .desmond {
     grid-area: bb;
-    background: url('assets/images/desmond.png');
+    background: url('assets/Images/desmond.png');
 }
 
 
 .scolara {
     grid-area: cc;
-    background: url('assets/images/scolara.png');    
+    background: url('assets/Images/scolara.png');    
 }
 
 
@@ -953,7 +953,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/facebook.png');
+    background: url('assets/Images/facebook.png');
     
 }
 
@@ -973,7 +973,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/google.png');
+    background: url('assets/Images/google.png');
 }
 
 
@@ -990,7 +990,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/twitter.png');
+    background: url('assets/Images/twitter.png');
 }
 
 
@@ -1007,7 +1007,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/linkedin.png');
+    background: url('assets/Images/linkedin.png');
 }
 
 
@@ -1023,7 +1023,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/facebook.png');
+    background: url('assets/Images/facebook.png');
 }
 
 
@@ -1040,7 +1040,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/google.png');
+    background: url('assets/Images/google.png');
 }
 
 
@@ -1057,7 +1057,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/twitter.png');
+    background: url('assets/Images/twitter.png');
 }
 
 
@@ -1074,7 +1074,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/linkedin.png');
+    background: url('assets/Images/linkedin.png');
 }
 
 
@@ -1090,7 +1090,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/facebook.png');
+    background: url('assets/Images/facebook.png');
 }
 
 
@@ -1107,7 +1107,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/google.png');
+    background: url('assets/Images/google.png');
 }
 
 
@@ -1124,7 +1124,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/twitter.png');
+    background: url('assets/Images/twitter.png');
 }
 
 
@@ -1141,7 +1141,7 @@ li {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background: url('assets/images/linkedin.png');
+    background: url('assets/Images/linkedin.png');
 }
 
 
@@ -1157,7 +1157,7 @@ li {
 .footer-bottom {
     width: 1020px;
     height: 6px;
-    background: url('assets/images/footer-bottom.png');
+    background: url('assets/Images/footer-bottom.png');
     position: relative;
     top: 179px;
 }

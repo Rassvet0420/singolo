@@ -122,7 +122,7 @@ h1 {
     position: relative;
     left: 610px;
     top: 16px;
-    max-width: 371px;
+    width: 371px;
     letter-spacing: 0.2px; 
 }
 
@@ -230,9 +230,19 @@ main {
 }
 
 
+.slider-left:hover {
+    -webkit-filter: blur(1.5px);
+    filter: blur(1.5px);
+}
+
+
+
+
+
 .link-1 {
     width: 16px;
     height: 27px;
+    
 }
 
 
@@ -245,6 +255,14 @@ main {
     top: 254px;
     left: 964px;
 }
+
+
+.slider-right:hover {
+    -webkit-filter: blur(1.5px);
+    filter: blur(1.5px);
+}
+
+
 
 
 .link-2 {
@@ -934,7 +952,10 @@ li {
     width: 34px;
     height: 34px;
     background: url('assets/images/facebook.png');
+    
 }
+
+
 
 
 .adam-f-a {
@@ -1139,7 +1160,55 @@ li {
     top: 181px;
 }
 
+.adam-f:hover {
+    -webkit-transform: rotate(0.5turn);
+}
 
+.adam-g:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.adam-t:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.adam-l:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+
+.desmond-f:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.desmond-g:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.desmond-t:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.desmond-l:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+
+.scolara-f:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.scolara-g:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.scolara-t:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.scolara-l:hover {
+    -webkit-transform: rotate(0.5turn);
+}
 
 
 /* SINGOLO 3 */
@@ -1424,4 +1493,21 @@ li {
     display: inline-block;
     background: url('assets/Images/linkedin.png');
     margin-left: 3px;
+}
+
+
+.footer-a-f:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.footer-a-g:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.footer-a-t:hover {
+    -webkit-transform: rotate(0.5turn);
+}
+
+.footer-a-i:hover {
+    -webkit-transform: rotate(0.5turn);
 }

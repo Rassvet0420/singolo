@@ -215,7 +215,7 @@ main {
     height: 600px;
     position: absolute;
     top: 95px;
-    background: url('../Singolo/assets/Images/Bg@1X.png');
+    background: url('assets/Images/Bg@1X.png');
     z-index: 2;
 }   
 
@@ -250,7 +250,7 @@ main {
 .slider-right {
     width: 16px;
     height: 27px;
-    background: url('../Singolo/assets/Images/slider-right.png');
+    background: url('assets/Images/slider-right.png');
     position: relative;
     z-index: 3;
     top: 254px;
@@ -285,7 +285,7 @@ main {
     position: absolute;
     width: 240px;
     height: 483px;
-    background: url('../Singolo/assets/Images/iphone-shadow.png');
+    background: url('assets/Images/iphone-shadow.png');
     left: 112px; 
     z-index: 3;  
 }
@@ -295,7 +295,7 @@ main {
     position: absolute;
     width: 215px;
     height: 458px;
-    background: url('../Singolo/assets/Images/vertical-base.png');
+    background: url('assets/Images/vertical-base.png');
     left: 112px;
     z-index: 4;
 }
@@ -305,7 +305,7 @@ main {
     position: absolute;
     width: 188px;
     height: 333px;
-    background: url('../Singolo/assets/Images/vertical-screen.png');
+    background: url('assets/Images/vertical-screen.png');
     left: 126px;
     top: 65px;
     z-index: 5;   
@@ -316,7 +316,7 @@ main {
     position: absolute;
     width: 194px;
     height: 339px;
-    background: url('../Singolo/assets/Images/fon.png');
+    background: url('assets/Images/fon.png');
     left: -3px;
     top: -3px;
     z-index: 6;
@@ -327,7 +327,7 @@ main {
     position: absolute;
     width: 36px;
     height: 5px;
-    background: url('../Singolo/assets/Images/vertical-speaker.png');
+    background: url('assets/Images/vertical-speaker.png');
     left: 202px;
     top: 36px;
     z-index: 5;
@@ -338,7 +338,7 @@ main {
     position: absolute;
     width: 43px;
     height: 43px;
-    background: url('../Singolo/assets/Images/vertical-circle.png');
+    background: url('assets/Images/vertical-circle.png');
     left: 198px;
     top: 407px;
     z-index: 5;
@@ -349,7 +349,7 @@ main {
     position: absolute;
     width: 17px;
     height: 17px;
-    background: url('../Singolo/assets/Images/vertical-square.png');
+    background: url('assets/Images/vertical-square.png');
     left: 211px;
     top: 420px;
     z-index: 6;
@@ -360,7 +360,7 @@ main {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: url('../Singolo/assets/Images/vertical-cam-circle.png');
+    background: url('assets/Images/vertical-cam-circle.png');
     left: 214px;
     top: 16px;
     z-index: 5;
@@ -371,7 +371,7 @@ main {
     position: absolute;
     width: 5px;
     height: 5px;
-    background: url('../Singolo/assets/Images/vertical-red-dot.png');
+    background: url('assets/Images/vertical-red-dot.png');
     left: 217px;
     top: 18px;
     z-index: 6;
@@ -385,7 +385,7 @@ main {
     position: absolute;
     width: 555px;
     height: 347px;
-    background: url('../Singolo/assets/Images/iphone-horizontal-2.png') ;
+    background: url('assets/Images/iphone-horizontal-2.png') ;
     left: 360px;
     top: 69px;
 }
@@ -395,7 +395,7 @@ main {
     position: absolute;
     width: 1020px;
     height: 6px;
-    background: url('../Singolo/assets/Images/main-bottom.png');
+    background: url('assets/Images/main-bottom.png');
     z-index: 1;
     top: 594px;
 }
@@ -408,7 +408,7 @@ main {
     position: absolute;
     width: 1020px;
     height: 496px;
-    background: url('../Singolo/assets/Images/footer-bg.png');
+    background: url('assets/Images/footer-bg.png');
     top: 600px;
 }
 
@@ -1284,7 +1284,7 @@ li {
 .form-area-item-textarea {
     width: 619px;
     height: 190px;
-    background: url(assets/Images/text-area-bg.png);
+    background: url('assets/Images/text-area-bg.png');
     font-family: 'Lato-Regular';
     font-size: 12px;
     text-align: justify;

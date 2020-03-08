@@ -751,3 +751,390 @@ li {
     left: 0px;
     background-image: url('assets/images/main-footer.png');
 }
+
+
+
+/* SINGOLO 2 FOOTER */
+
+
+.singolo2-footer {
+    width: 1020px;
+    height: 728px;
+    position: relative;
+    top: 1200px;
+    background: url('assets/images/footer-bg-s2.png');
+}
+
+
+.p-f-first {
+    position: relative;
+    top: 62px;
+    left: 40px;
+    font-family: 'Lato-Black';
+    font-size: 30px;
+    color: rgba(102, 109, 137, 255);
+}
+
+
+.p-f-second {
+    width: 939px;
+    height: 47px;
+    position: relative;
+    top: 85px;
+    left: 41px;
+    font-family: 'Lato-Light';
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+}
+
+
+.about-us {
+    display: grid;
+    width: 962px;
+    height: 470px;
+    position: relative;
+    top: 141px;
+    left: 40px;
+    grid-template-areas:
+        "aa bb cc"
+        "dd ee ff"
+        "gg hh ii";
+    grid-template-rows: 300px;
+    grid-template-columns: repeat(3, 300px);
+    row-gap: 17px;
+    column-gap: 20px;
+}
+
+
+.adam {
+    grid-area: aa;
+    background: url('assets/images/adam.png');
+
+}
+
+
+.desmond {
+    grid-area: bb;
+    background: url('assets/images/desmond.png');
+}
+
+
+.scolara {
+    grid-area: cc;
+    background: url('assets/images/scolara.png');    
+}
+
+
+.adam-p {
+    grid-area: dd;
+}
+
+
+.desmond-p {
+    grid-area: ee;
+}
+
+
+.scolara-p {
+    grid-area: ff;
+}
+
+
+.adam-soc {
+    position: relative;
+    top: -7px;
+    left: -7px;
+    grid-area: gg;
+}
+
+
+.desmond-soc {
+    position: relative;
+    top: -7px;
+    left: -7px;    
+    grid-area: hh;
+}
+
+
+.scolara-soc {
+    position: relative;
+    top: -7px;
+    left: -7px;
+    grid-area: ii;
+}
+
+
+.adam-p-1 {
+    font-family: 'Lato-black';
+    font-size: 18px;
+    color: rgba(102, 109, 137, 255);
+    text-align: justify;
+    letter-spacing: -0.2px;
+}
+
+
+.adam-p-2 {
+    position: relative;
+    top: 10px;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    line-height: 21px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+    word-spacing: -0.5px;   
+}
+
+
+.desmond-p-1 {
+    font-family: 'Lato-black';
+    font-size: 18px;
+    color: rgba(102, 109, 137, 255);
+    text-align: justify;
+    letter-spacing: -0.2px;
+}
+
+
+.desmond-p-2 {
+    position: relative;
+    top: 10px;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    line-height: 21px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+    word-spacing: -0.5px;
+}
+
+
+.scolara-p-1 {
+    font-family: 'Lato-black';
+    font-size: 18px;
+    color: rgba(102, 109, 137, 255);
+    text-align: justify;
+    letter-spacing: -0.2px;
+}
+
+
+.scolara-p-2 {
+    position: relative;
+    top: 10px;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    line-height: 21px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+    word-spacing: -0.5px;
+}
+
+
+.adam-f {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/facebook.png');
+}
+
+
+.adam-f-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.adam-g {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/google.png');
+}
+
+
+.adam-g-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.adam-t {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/twitter.png');
+}
+
+
+.adam-t-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.adam-l {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/linkedin.png');
+}
+
+
+.adam-l-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+}
+
+
+.desmond-f {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/facebook.png');
+}
+
+
+.desmond-f-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.desmond-g {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/google.png');
+}
+
+
+.desmond-g-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.desmond-t {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/twitter.png');
+}
+
+
+.desmond-t-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.desmond-l {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/linkedin.png');
+}
+
+
+.desmond-l-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+}
+
+
+.scolara-f {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/facebook.png');
+}
+
+
+.scolara-f-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.scolara-g {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/google.png');
+}
+
+
+.scolara-g-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.scolara-t {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/twitter.png');
+}
+
+
+.scolara-t-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.scolara-l {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url('assets/images/linkedin.png');
+}
+
+
+.scolara-l-a {
+    display: inline-block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-right: 2px;
+}
+
+
+.footer-bottom {
+    width: 1020px;
+    height: 6px;
+    background: url('assets/images/footer-bottom.png');
+    position: relative;
+    top: 181px;
+}

@@ -67,8 +67,6 @@ table {
 }
 
 
-
-
 body {
     width: 1020px;
     margin: 0 auto;
@@ -83,44 +81,64 @@ body {
 
 
 .form-header {
-    width: 162px;
+    width: 164px;
     height: 26px;
+    position: relative;
+    top: 63px;
+    left: 40px;
     font-family: 'Lato-Black';
-    font-size: 20px;
+    font-size: 29px;
     color: rgba(240, 216, 217, 255);
     text-align: justify;
+    letter-spacing: 0.4px;
 }
 
 
 .form-text {
     width: 939px;
     height: 47px;
+    position: relative;
+    top: 86px;
+    left: 40px;
     font-family: 'Lato-Light';
     font-size: 18px;
     color: rgba(240, 216, 217, 255);
     text-align: justify;
+    line-height: 31px;
+}
+
+
+.form-area { 
+    position: relative;
+    top: 144px;
+    left: 40px;
 }
 
 
 .form-area-item {
     width: 619px;
     height: 38px;
+    margin-bottom: 16px;
     background: url('assets/Images/form-area-item-bg.png');
     font-family: 'Lato-Regular';
     font-size: 12px;
     text-align: justify;
+    text-indent: 15px;
 }
+
 
 .form-area-item::-webkit-input-placeholder {color: rgba(244, 140, 143, 255);}
 
 
 .form-area-item-textarea {
     width: 619px;
-    height: 202px;
-    background: url('assets/Images/text-area-bg.png');
+    height: 190px;
+    background: url(assets/Images/text-area-bg.png);
     font-family: 'Lato-Regular';
     font-size: 12px;
     text-align: justify;
+    text-indent: 15px;
+    padding-top: 12px;
 }
 
 
@@ -130,33 +148,99 @@ body {
 .submit {
     width: 138px;
     height: 53px;
+    position: relative;
+    top: -20px;
+    left: 12px;
     background-color: rgb(214, 86, 79, 255);
     font-family: 'Lato-Regular';
-    font-size: 12px;
-    text-align: justify;
+    font-size: 17px;
+    text-align: center;
     border-radius: 4px;
-
-}
-
-.submit::-webkit-input-placeholder {color: rgba(244, 140, 143, 255);}
-
-
-
-
-h4 {
-
+    color: rgba(244, 140, 143, 255);
 }
 
 
-
-p {
-
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(14, 51, 79, 255);
+    transition: transform 0.1s, color 0.3s linear;
 }
+
+
+.contact-info {
+    display: block;
+    width: 301px;
+    height: 214px;
+    position: relative;
+    top: -243px;
+    left: 680px;
+}
+
+
+.contact-info-h {
+    position: relative;
+    top: 4px;
+    font-family: 'Lato-Black';
+    font-size: 18px;
+    color: rgba(240, 216, 217, 255);
+    text-align: justify;
+    letter-spacing: -0.1px;
+}
+
+
+.contact-info-p {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+    text-align: justify;
+    position: relative;
+    top: 14px;
+    left: 0px;
+    line-height: 21.5px;
+    letter-spacing: -0.1px;
+    word-spacing: 0.6px;
+}
+
+
+.contact-info-a {
+    position: relative;
+    top: 38px;
+    left: 0px;
+}
+
+
+.contact-info-a-p {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+    text-align: justify;
+    position: relative;
+    margin-bottom: -11px;
+    top: -12px;
+    left: 23px;
+    line-height: 21px;
+    letter-spacing: -0.13px;
+    word-spacing: 0.6px;
+}
+
+
+.contact-info-a-p-2 {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+    text-align: justify;
+    position: relative;
+    top: -4px;
+    left: 23px;
+}
+
 
 .form-line {
     width: 1020px;
     height: 6px;
     display: block;
+    position: relative;
+    top: -22px;
     background: url('assets/Images/form-line-bg.png');
 }
 
@@ -164,20 +248,30 @@ p {
 .contact-loc {
     width: 7px;
     height: 11px;
+    position: relative;
+    top: 4px;
+    left: 3px;
     display: block;
     background: url('assets/Images/contact-a-loc.png');
 }
 
+
 .contact-phone {
     width: 11px;
     height: 11px;
+    position: relative;
+    top: 4px;
+    left: 1px;
     display: block;
     background: url('assets/Images/contact-a-phone.png');
 }
 
+
 .contact-mail {
     width: 13px;
     height: 8px;
+    position: relative;
+    top: 8px;
     display: block;
     background: url('assets/Images/contact-a-mail.png');
 }
@@ -189,11 +283,16 @@ p {
     background: url('assets/Images/form-footer-bg.png');
 }
 
+
 .copyright {
+    position: relative;
+    top: 31px;
+    left: 42px;
     font-family: 'Lato-Regular';
     font-size: 12px;
     text-align: justify;
-    color: rgb(85, 91, 114, 255);
+    color: #666d89;
+    letter-spacing: 0.2px;
 }
 
 
@@ -201,6 +300,9 @@ p {
     width: 160px;
     height: 38px;
     display: block;
+    position: relative;
+    top: 9px;
+    left: 827px;
 }
 
 
@@ -211,23 +313,29 @@ p {
     background: url('assets/Images/facebook.png');
 }
 
+
 .footer-a-g {
     width: 33px;
     height: 33px;
     display: inline-block;
     background: url('assets/Images/google.png');
+    margin-left: 3px;
 }
+
 
 .footer-a-t {
     width: 33px;
     height: 33px;
     display: inline-block;
     background: url('assets/Images/twitter.png');
+    margin-left: 3px;
 }
+
 
 .footer-a-i {
     width: 33px;
     height: 33px;
     display: inline-block;
     background: url('assets/Images/linkedin.png');
+    margin-left: 3px;
 }

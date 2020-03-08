@@ -535,7 +535,7 @@ main {
 
 .singolo2-header {
     position: relative;
-    top: 1200px;
+    top: 1046px;
     width: 1020px;
     height: 195px;
     background: url('assets/images/header-bg.png');
@@ -646,7 +646,7 @@ li {
 
 .singolo2-main {
     position: relative;
-    top: 1206px;
+    top: 1046px;
     width: 1020px;
     height: 675px;
     background: url('assets/images/main-bg.png');
@@ -761,7 +761,7 @@ li {
     width: 1020px;
     height: 728px;
     position: relative;
-    top: 1200px;
+    top: 1047px;
     background: url('assets/images/footer-bg-s2.png');
 }
 
@@ -1149,7 +1149,7 @@ li {
     width: 1020px;
     margin: 0 auto;
     position: relative;
-    top: 1218px;
+    top: 1047px;
 }
 
 
@@ -1365,7 +1365,7 @@ li {
     width: 1020px;
     height: 76px;
     position: relative;
-    top: 3559px;
+    top: 3360px;
     background: url('assets/Images/form-footer-bg.png');
 }
 

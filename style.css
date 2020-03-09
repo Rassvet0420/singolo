@@ -767,7 +767,7 @@ li {
     width: 1020px;
     height: 6px;
     position: relative;
-    top: -1;
+    top: -2px;
     left: 0px;
     background-image: url('assets/Images/main-footer.png');
 }
@@ -1159,7 +1159,7 @@ li {
     height: 6px;
     background: url('assets/Images/footer-bottom.png');
     position: relative;
-    top: 179px;
+    top: 181px;
 }
 
 .adam-f:hover {
@@ -1299,9 +1299,9 @@ li {
 .submit {
     width: 138px;
     height: 53px;
-    position: relative;
-    top: -20px;
-    left: 12px;
+    position: absolute;
+    top: 311px;
+    left: 639px;
     background-color: rgb(214, 86, 79, 255);
     font-family: 'Lato-Regular';
     font-size: 17px;
@@ -1330,7 +1330,7 @@ li {
 
 .contact-info-h {
     position: relative;
-    top: 3px;
+    top: 21px;
     font-family: 'Lato-Black';
     font-size: 18px;
     color: rgba(240, 216, 217, 255);
@@ -1345,7 +1345,7 @@ li {
     color: rgba(240, 216, 217, 255);
     text-align: justify;
     position: relative;
-    top: 13px;
+    top: 31px;
     left: 0px;
     line-height: 21.9px;
     letter-spacing: -0.1px;
@@ -1367,9 +1367,9 @@ li {
     text-align: justify;
     position: relative;
     margin-bottom: -11px;
-    top: -12px;
+    top: 5px;
     left: 23px;
-    line-height: 21px;
+    line-height: 15px;
     letter-spacing: -0.13px;
     word-spacing: 0.6px;
     cursor: pointer;
@@ -1403,7 +1403,7 @@ li {
     height: 6px;
     display: block;
     position: relative;
-    top: -19px;
+    top: -2px;
     left: -23px;
     background: url('assets/Images/form-line-bg.png');
 }

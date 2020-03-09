@@ -237,9 +237,6 @@ main {
 }
 
 
-
-
-
 .link-1 {
     width: 16px;
     height: 27px;
@@ -262,8 +259,6 @@ main {
     -webkit-filter: blur(1.5px);
     filter: blur(1.5px);
 }
-
-
 
 
 .link-2 {
@@ -482,7 +477,7 @@ main {
 
 
 
- .bulb {
+.bulb {
     grid-area: blb;
     background: url('/assets/Images/Bulb.png');
 }
@@ -661,8 +656,8 @@ li {
 }
 
 
-
 /* SINGOLO 2 MAIN */
+
 
 .singolo2-main {
     position: relative;
@@ -771,7 +766,6 @@ li {
     left: 0px;
     background-image: url('assets/Images/main-footer.png');
 }
-
 
 
 /* SINGOLO 2 FOOTER */
@@ -956,8 +950,6 @@ li {
     background: url('assets/Images/facebook.png');
     
 }
-
-
 
 
 .adam-f-a {
@@ -1360,7 +1352,7 @@ li {
 }
 
 
-.contact-info-a-p {
+/* .contact-info-a-p {
     font-family: 'Lato-Regular';
     font-size: 12px;
     color: rgba(240, 216, 217, 255);
@@ -1391,11 +1383,9 @@ li {
 }
 
 
-
-
 .contact-info-a-p-2:hover {
     color: rgb(214, 86, 79, 255);
-}
+} */
 
 
 .form-line {
@@ -1403,41 +1393,80 @@ li {
     height: 6px;
     display: block;
     position: relative;
-    top: -2px;
-    left: -23px;
+    top: -6px;
+    left: 0px;
     background: url('assets/Images/form-line-bg.png');
 }
 
 
 .contact-loc {
-    width: 7px;
+    width: 139px;
     height: 11px;
     position: relative;
-    top: 4px;
+    top: 21px;
     left: 3px;
     display: block;
-    background: url('assets/Images/contact-a-loc.png');
+    background: url('assets/Images/contact-a-loc.png') no-repeat;
+}
+
+
+.contact-loc-p {
+    text-align: right;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+}
+
+
+.contact-loc-p:hover {
+    color: rgb(214, 86, 79, 255);
 }
 
 
 .contact-phone {
-    width: 11px;
+    width: 113px;
     height: 11px;
     position: relative;
-    top: 4px;
+    top: 31px;
     left: 1px;
     display: block;
-    background: url('assets/Images/contact-a-phone.png');
+    background: url('assets/Images/contact-a-phone.png') no-repeat;
+}
+
+
+.contact-phone-p {
+    text-align: right;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+}
+
+
+.contact-phone-p:hover {
+    color: rgb(214, 86, 79, 255);
 }
 
 
 .contact-mail {
-    width: 13px;
-    height: 8px;
+    width: 116px;
+    height: 11px;
     position: relative;
-    top: 8px;
+    top: 45px;
     display: block;
-    background: url('assets/Images/contact-a-mail.png');
+    background: url('assets/Images/contact-a-mail.png') no-repeat;
+}
+
+
+.contact-mail-p {
+    text-align: right;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: rgba(240, 216, 217, 255);
+}
+
+
+.contact-mail-p:hover {
+    color: rgb(214, 86, 79, 255);
 }
 
 
@@ -1445,6 +1474,7 @@ li {
    ###FOOTER###
    ############ */
 
+   
 .form-footer {
     width: 1020px;
     height: 76px;
